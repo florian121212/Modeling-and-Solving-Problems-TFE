@@ -1,6 +1,4 @@
-#########################
 #  Rubik's cube solver  #
-#########################
 use rubiks9moves.pml or rubiks3moves.pml to solve the Rubik's cube respectively 9 or 3 different movements
 
 Tansform code for the model checker in pan.c:
@@ -28,7 +26,5 @@ see results of the search if finished :
 
 use: ispin filename.pml for the graphic interface
 
-#########################
 #       Solitaire       #
-#########################
 use solitaire.pml to find a solution to the solitaire (model not enough optimised to work on a normal computer)

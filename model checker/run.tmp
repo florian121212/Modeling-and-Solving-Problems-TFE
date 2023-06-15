@@ -1,0 +1,35 @@
+error: max search depth too small
+Depth=    9999 States=   1e+006 Transitions= 1.49e+007 Memory=   213.983	t=      1.3 R=  8e+005
+Depth=    9999 States=   2e+006 Transitions= 2.99e+007 Memory=   297.968	t=     2.73 R=  7e+005
+pan:1: assertion violated  !((((((((((((((((cube[0].s[0]==cube[0].s[1])&&(cube[0].s[0]==cube[0].s[2]))&&(cube[0].s[0]==cube[0].s[3]))&&(cube[1].s[0]==cube[1].s[1]))&&(cube[1].s[0]==cube[1].s[2]))&&(cube[1].s[0]==cube[1].s[3]))&&(cube[2].s[0]==cube[2].s[1]))&&(cube[2].s[0]==cube[2].s[2]))&&(cube[2].s[0]==cube[2].s[3]))&&(cube[3].s[0]==cube[3].s[1]))&&(cube[3].s[0]==cube[3].s[2]))&&(cube[3].s[0]==cube[3].s[3]))&&(cube[4].s[0]==cube[4].s[1]))&&(cube[4].s[0]==cube[4].s[2]))&&(cube[4].s[0]==cube[4].s[3]))) (at depth 9999)
+pan: wrote rubiks2x2.pml.trail
+
+(Spin Version 6.5.1 -- 31 July 2020)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	- (not selected)
+	assertion violations	+
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	+
+
+State-vector 108 byte, depth reached 9999, errors: 1
+  2358098 states, stored
+ 32893099 states, matched
+ 35251197 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:    133050 (resolved)
+
+Stats on memory usage (in Megabytes):
+  287.854	equivalent memory usage for states (stored*(State-vector + overhead))
+  198.373	actual memory usage for states (compression: 68.91%)
+         	state-vector as stored = 68 byte + 20 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  328.046	total actual memory usage
+
+
+
+pan: elapsed time 3.34 seconds
+pan: rate 706652.08 states/second

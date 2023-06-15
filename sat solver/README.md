@@ -1,6 +1,4 @@
-#######################
 #  snake cube solver  #
-#######################
 use snake_cube.py for the resolution of a cube (same size for each dimension). It uses symmetry clauses
 
 	py snake_cube.py filename.txt selectionstrategy
@@ -25,9 +23,7 @@ snake_cube_inv.py and snake_rectangle_inv.py work in the same way as snake_cube.
 	we have: -each block at most once
 		   -at least one block per cube cell
 
-#######################
 #   rubik's solver    #
-#######################
 use rubiks_sat.py for the resolution of a Rubik's cube 2x2 with one predicate per movement
 
 	py rubik_sat.py filename.txt nb_moves [selectionstrategy]
@@ -41,9 +37,7 @@ use rubiks_binary.py for the resolution of a rubik's cube 2x2 with a binary enco
 	-filename is the file with the initial state of the Rubik's cube
 	-selectionstrategy (optional) is a string ("Positive" or "Negative"), nothing if default strategy (RSATPhaseSelectionStrategy)
 
-#######################
 #   othello solver    #
-#######################
 use othello_sat.py to find a gameplay of othello with a maximum number of moves
 
 	py othello_sat.py size [nb_moves] [selectionstrategy]
